@@ -5,7 +5,7 @@
 
 ## Overview
 
-This API goes with the [City Explorer]() and has been used to test out serving a .json weather data file as prepwork for connecting the City Explorer app to an external API.
+This API goes with the [City Explorer](https://github.com/akkanben/city-explorer) and has been used to test out serving a .json weather data file as prepwork for connecting the City Explorer app to an external API.
 
 ## Getting Started
 
