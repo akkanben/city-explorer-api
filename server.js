@@ -31,14 +31,7 @@ const handleWeatherRequest = async (request, response) => {
   }
 }
 
-const handleRequest = (req, res) => {
-
-
-}
-
 app.get('/weather', handleWeatherRequest);
-app.get('/', (request, response) => response.send('hello'));
-
+app.get('/*', (request, response) => response.status(404).send('No path.'));
 app.listen(PORT, () => console.log('Weather Data Server is listening on port: ' + PORT));
 
-//https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=API_KEY&include=minutely
