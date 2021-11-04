@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = class Forcast {
+module.exports = class Forecast {
   constructor(date, description) {
     this.date = date;
     this.description = description;
