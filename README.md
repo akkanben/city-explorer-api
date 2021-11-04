@@ -41,4 +41,7 @@ Collaboration with [Joe Streifel](https://github.com/jstreifel-33) during the pl
 | 1 | Set up your Server Repository | 00:30          | 05:00PM  | 05:16PM | 00:16  |
 | 2 | Weather                       | 02:00          | 07:20PM  | 11:45PM | 04:25  |
 | 3 | Errors                        | 02:00          | 11:45PM  | 01:00AM | 01:45  |
+| 4 | Weather (live)                | 02:00          | 04:45PM  | 06:30AM | 01:45  |
+| 5 | Movies                        | 01:00          | 07:15PM  | 08:45AM | 01:30  |
+| 6 | Publish                       | 00:00          | 00:00PM  | 00:00AM | 00:00  |
 
