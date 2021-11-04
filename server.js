@@ -13,7 +13,7 @@ app.use(cors());
 const handleWeatherRequest = async (request, response) => {
   const {lat, lon} = request.query;
   console.log(request.query);
-  const url = `https://api.weatherbit.io/v2.0/forecast/daily?lat=${lat}&lon=${lon}&key=${process.env.WEATHER_API_KEY}`;
+  const url = `https://api.weatherbit.io/v2.0/forecast/daily?lat=${lat}&lon=${lon}&key=${process.env.WEATHER_API_KEY}&days=3`;
   console.log(url);
   try {
     const apiResults = await axios.get(url);
@@ -31,6 +31,8 @@ const handleWeatherRequest = async (request, response) => {
 }
 
 const handleMovieRequest = async (request, response) => {
+  console.log('movie request')
+  console.log(request.query)
   const {city} = request.query;
   const url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIE_API_KEY}&query=${city}&language=en-US&include_adult=false`;
   try {
