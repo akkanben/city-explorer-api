@@ -27,6 +27,7 @@ This API goes with the [City Explorer]() and has been used to test out serving a
 
 11-02-2021 11:45PM - Application has working weather data and responds to correctly formatted urls at /weather.
 11-03-2021 11:50PM - Application pulls live weather data and external movie data and servers to city explorer app. 
+11-04-2021 08:15PM - Application refactored to move weather and movie functions to their own files.
  
 
 ## Credit and Collaborations
@@ -38,7 +39,7 @@ Collaboration with [Joe Streifel](https://github.com/jstreifel-33) during the pl
 
 Updated Data Flow including external APIs and and city-explorer-api
 
-<div align="left" ><img src="./images/lab_08-data-flow.png" /></div>
+<div align="left" ><img src="./images/lab_09-data-flow.png" /></div>
 
 ## Time Estimates
 
@@ -50,4 +51,4 @@ Updated Data Flow including external APIs and and city-explorer-api
 | 4 | Weather (live)                | 02:00          | 04:45PM  | 06:30AM | 01:45  |
 | 5 | Movies                        | 01:00          | 07:15PM  | 08:45AM | 01:30  |
 | 6 | Publish                       | 00:30          | 11:30AM  | 11:50AM | 00:20  |
-
+| 7 | Refactor                      | 00:30          | 08:00PM  | 08:15PM | 00:15  |
