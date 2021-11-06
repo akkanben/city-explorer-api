@@ -52,3 +52,4 @@ Updated Data Flow including external APIs and and city-explorer-api
 | 5 | Movies                        | 01:00          | 07:15PM  | 08:45AM | 01:30  |
 | 6 | Publish                       | 00:30          | 11:30AM  | 11:50AM | 00:20  |
 | 7 | Refactor                      | 00:30          | 08:00PM  | 08:15PM | 00:15  |
+| 8 | Cache                         | 01:00          | 05:20PM  | 00:00PM | 00:00  |
