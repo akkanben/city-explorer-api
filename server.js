@@ -15,5 +15,5 @@ app.get('/movies', handleMovieRequest);
 app.get('/weather', handleWeatherRequest);
 app.get('/*', (request, response) => response.status(404).send('No path.'));
 
-app.listen(PORT, () => console.log('Weather Data Server is listening on port: ' + PORT));
+app.listen(PORT, () => console.log('Server is listening on port: ' + PORT));
 
