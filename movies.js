@@ -15,7 +15,7 @@ const handleMovieRequest = async (request, response) => {
     cache[key].timestamp = Date.now();
     try {
       const apiResults = await axios.get(url);
-      cache[key].movieData = apiResults.data.results.map(element => new Movie(element));
+      cache[key].movieData = apiResults.data.results.map(element => new Movie(element, cache[key].timestamp));
       response.status(200).send(cache[key].movieData);
     } catch (event) {
       response.status(404).send('Nothing good');
