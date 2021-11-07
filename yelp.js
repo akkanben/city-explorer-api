@@ -18,7 +18,6 @@ const handleYelpRequest = async (request, response) => {
       cache[key].yelpData = apiResults.data.businesses.map(element => new Restaurant(element, cache[key].timestamp));
       response.status(200).send(cache[key].yelpData);
     } catch (event) {
-
       response.status(404).send('Nothing good');
     }
   }
